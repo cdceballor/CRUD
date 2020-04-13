@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 
 routes = require('./routes/productos')(app);
 
-mongoose.connect('mongodb://localhost/productos', function(err, res) {
+mongoose.connect('mongodb://localhost/producto', function(err, res) {
     if(err) {
         console.log('ERROR: connecting to Database. ' + err);
     } else {
