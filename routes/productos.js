@@ -89,3 +89,9 @@ module.exports = function(app) {
 	app.delete('/producto/:id', deleteProduct);
 
 }
+
+/*
+Probando el CRUD
+Put: http://localhost:3000/tvshow/5ea90d5aba92cf2319000001
+Delete:
+ */

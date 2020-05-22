@@ -24,6 +24,6 @@ mongoose.connect('mongodb://localhost/producto', function(err, res) {
     }
 });
 
-server.listen(3000, function() {
-    console.log("Node server running on http://localhost:3000");
+server.listen(8000, function() {
+    console.log("Node server running on http://localhost:8000");
 });
