@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
-    Schema = mongoose.Schema;
+    MSchema = mongoose.Schema;
 
-var monitoriaSchema = new Schema({
+var monitoriaSchema = new MSchema({
     id_mon: { type: String},
     monName: 		{ type: String },
     price:  	{ type: Number },
