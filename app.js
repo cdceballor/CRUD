@@ -15,6 +15,8 @@ app.get('/', function(req, res) {
 });
 
 routes = require('./routes/productos')(app);
+routes = require('./routes/monitorias')(app);
+routes = require('./routes/proveedores')(app);
 
 mongoose.connect('mongodb://localhost/producto', function(err, res) {
     if(err) {
